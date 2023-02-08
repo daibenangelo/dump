@@ -1,1 +1,65 @@
-{"game_version":"v0.2.2"}
+{
+  companyName: "Erizon Holdings Incorporated",
+  employees: [
+    {
+      firstName: "Julian",
+      lastName: "Bradley",
+      email: "julianbradley@kani.com",
+      position: "Associate Software Engineer",
+    },
+    {
+      firstName: "Leon",
+      lastName: "Casey",
+      email: "leoncasey@kani.com",
+      position: "Human Resources Staff",
+    },
+    {
+      firstName: "Anastasia",
+      lastName: "Herrera",
+      email: "anastasiaherrera@kani.com",
+      position: "Marketing Lead",
+    },
+    {
+      firstName: "Khadijah",
+      lastName: "Parks",
+      email: "khadijahparks@kani.com",
+      position: "Intern",
+    },
+    {
+      firstName: "Willow",
+      lastName: "Wilcox",
+      email: "willowwilcox@kani.com",
+      position: "Technical Support",
+    },
+    {
+      firstName: "Millicent",
+      lastName: "Hammond",
+      email: "millicenthammond@kani.com",
+      position: "Project Manager",
+    },
+    {
+      firstName: "Tony",
+      lastName: "Hamilton",
+      email: "tonyhamilton@kani.com",
+      position: "Front End Developer",
+    },
+    {
+      firstName: "Priya",
+      lastName: "Caldwell",
+      email: "priyacaldwell@kani.com",
+      position: "Front End Developer",
+    },
+    {
+      firstName: "Axel",
+      lastName: "Walker",
+      email: "axelwalker@kani.com",
+      position: "Back End Developer",
+    },
+    {
+      firstName: "Ehsan",
+      lastName: "Mckay",
+      email: "ethanmckay@kani.com",
+      position: "Back End Developer",
+    },
+  ],
+};
