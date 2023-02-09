@@ -1,0 +1,20 @@
+{
+  "shopName": "Richard Tech",
+  "inventory": [
+    {
+      "name": "GTX 4080 Graphics Card",
+      "product_id": "423789654",
+      "price": "300000"
+    },
+    {
+      "name": "Ryzen 7 5800H Procesor",
+      "product_id": "567435234",
+      "price": "28000"
+    },
+    {
+      "name": "Logitech Mouse",
+      "product_id": "458245198",
+      "price": "300"
+    }
+  ]
+}
