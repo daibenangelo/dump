@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/______#1______"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        _______#2________(function () {
+            $("___#3____").__#4__(function (x){
+                let ____#5____ = $("#first_name")._#6_();
+                let last_name = $("____#7____")._#6_();
+                let ___#8____ = $("#email_add")._#6_();
+                let mobile_num = $("____#9_____")._#6_();
+                let pw = $("#pw")._#6_();
+                let con_pw = $("#con_pw")._#6_();
+
+                let valid_form_data = true;
+                if (_#10_ != _#11_) {
+                    alert("ERROR: Password and confirm password do not match!");
+                    valid_form_data = false;
+                }
+                
+                if (!mobile_num.______#12_______) {
+                    alert("ERROR: Mobile number must start with 09!")
+                    valid_form_data = false;
+                }
+
+                if (______#13_______) {
+                    $("____#14______").prop("_#15__", _#16_); //make the Log Summary section visible
+                    $("___#17____").prop("__#18___", _#19_); //disable all Log Here! section input blanks
+                    $("____#20______").text(first_name);
+                    $("____#21_____").text(___#22___);
+                    $("___#23____").text(email_add);
+                    $("__#24___").text(__#25__);
+                    alert("Log successful!");
+                }else{
+                    alert("ERROR: Issue with form data!")
+                }
+
+                x.______#26________;
+            })
+        });
+    </script>
+    <title>Logbook</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+            <h1>Log Here!</h1>
+                <form id="log_form">
+                    <label>First name:</label>
+                    <input type="text" id="first_name" class="form-control log-input"/>
+                    <label>Last name:</label>
+                    <input type="text" id="last_name" class="form-control log-input"/>
+                    <label>Email address:</label>
+                    <input type="email" id="email_add" class="form-control log-input"/>
+                    <label>Mobile number:</label>
+                    <input type="text" id="mobile_num" class="form-control log-input"/>
+                    <label>Password:</label>
+                    <input type="password" id="_#27_" class="form-control log-input"/>
+                    <label>Confirm password:</label>
+                    <input type="password" id="__#28__" class="form-control log-input"/>
+                    <input ____#29______ class="mt-4 btn btn-primary"/>
+                </form>
+            </div>
+            <div id="log_summary" class="col-lg-6" hidden>
+            <h1>Log Summary</h1>
+                <ul>
+                    <li><strong>First name: </strong><span id="first_name_l"></span></li>
+                    <li><strong>Last name: </strong><span id="last_name_l"></span></li>
+                    <li><strong>Email address: </strong><span id="email_add_l"></span></li>
+                    <li><strong>Mobile number: </strong><span id="mobile_num_l"></span></li>
+                </ul>
+		            <!-- Our instructor is very ______#30______ -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
