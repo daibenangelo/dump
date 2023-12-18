@@ -1,5 +1,5 @@
 {
-  "companyName" : "CAD Enterprises",
+  "companyName" : "CAD Enterprises Incorporated",
   "employees": [
     {
       "firstName": "Bruce",
@@ -20,6 +20,11 @@
       "firstName": "John",
       "lastName": "Weak",
       "email": "jw@cad.com"
+    },
+    {
+      "firstName": "Allison",
+      "lastName": "Burgers",
+      "email": "aburgers@cad.com"
     }
   ]
 }
