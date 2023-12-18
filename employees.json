@@ -1,0 +1,25 @@
+{
+  "companyName" : "CAD Enterprises",
+  "employees": [
+    {
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "email": "brucewayne@cad.com"
+    },
+    {
+      "firstName": "Luffy",
+      "lastName": "Monkey",
+      "email": "luffym@cad.com"
+    },
+    {
+      "firstName": "Ladis",
+      "lastName": "Washurum",
+      "email": "ladisw@cad.com"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Weak",
+      "email": "jw@cad.com"
+    }
+  ]
+}
