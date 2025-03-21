@@ -1,0 +1,30 @@
+{
+  "restaurantName": "Gourmet Delights",
+  "menu": [
+    {
+      "dishName": "Steak au Poivre",
+      "category": "Main Course",
+      "price": 29.99
+    },
+    {
+      "dishName": "Truffle Mushroom Risotto",
+      "category": "Main Course",
+      "price": 24.99
+    },
+    {
+      "dishName": "Classic Caesar Salad",
+      "category": "Appetizer",
+      "price": 12.99
+    },
+    {
+      "dishName": "Molten Lava Cake",
+      "category": "Dessert",
+      "price": 9.99
+    },
+    {
+      "dishName": "Berry Bliss Smoothie",
+      "category": "Beverage",
+      "price": 6.99
+    }
+  ]
+}
